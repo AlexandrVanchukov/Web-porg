@@ -87,20 +87,24 @@ body{
     z-index: +1;
 }
 .filters-button{
+    text-decoration: none;
     margin: 10px;
     float: right;
     border-radius: 10px;
     border-width: 0px;
+    background-color: #F3F4F6;
 }
 .sort-button{
     float: left;
 }
 .filters-img{
+    text-decoration: none;
     display: inline-block;
     padding: 10px;
     vertical-align: top;
 }
 .filters-text{
+
     vertical-align: top;
     padding: 12px 24px 12px 0px;
     display: inline-block;
@@ -120,7 +124,9 @@ body{
 .grocery-box{
     display: inline-block;
     margin: 13px 0px 0px 10px;
-    width: 178px;
+    width: 45%;
+    min-width: 160px;
+    max-width: 178px;
     border-radius: 10px;
     box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.15);
 }
@@ -171,8 +177,8 @@ body{
     display: inline-block;
     vertical-align: top;
     padding-top: 10px;
-    text-align: center;
-    width: 58px;
+    text-align: right;
+    width: 33%;
     padding-bottom: 15px;
 }
 
@@ -188,6 +194,7 @@ body{
     z-index: +1;
 }
 .menu-button{
+    text-decoration: none;
     display: inline-block;
     float: left;
     border-width: 0px;
