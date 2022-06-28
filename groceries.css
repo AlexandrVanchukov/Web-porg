@@ -1,0 +1,214 @@
+::-webkit-input-placeholder {color:#FFFFFF; font-size: 18px;}
+::-moz-placeholder          {color:#FFFFFF; font-size: 18px;}/* Firefox 19+ */
+:-moz-placeholder           {color:#FFFFFF; font-size: 18px;}/* Firefox 18- */
+:-ms-input-placeholder      {color:#FFFFFF; font-size: 18px;}
+*{
+    font-family: Arial;
+    --input_text_color: #FFFFFF;
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+
+}
+body{
+    background-color: #111d38;
+}
+.main{
+    width: 390px;
+    margin: auto;
+}
+.main-background{
+    position: absolute;
+    z-index: -2;
+    background-color: #FFFFFF;
+    height: 700px;
+    width: 390px;
+}
+.page-name{
+    padding-left: 20px;
+    padding-top: 20px;
+    color: #FFFFFF;
+    font-size: 18px;
+}
+
+.unmoveble{
+    position: fixed;
+    width: 390px;
+}
+.unmoveble-menu{
+    position: fixed;
+    bottom: 0px;
+    width: 390px;
+}
+.header{
+    height: 60px;
+    background-color: #009933;
+}
+.search{
+    display: inline-block;
+    width: 100%;
+    position: relative;
+    z-index: +2;
+    height: 60px;
+    background-color: #009933;
+}
+.search-bar{
+    border-radius: 10px;
+    margin: 10px;
+    background-color: #007A29;
+
+}
+.search-img{
+    display: inline-block;
+    padding: 10px 10px 6px 10px;
+
+}
+.search-button{
+    background-color: #007A29;
+    border-width: 0;
+    border-radius: 10px 0px 0px 10px;
+}
+.search-input{
+    color: var(--input_text_color);
+    padding-top: 7px;
+    height: 40px;
+    width: 320px;
+    border-radius: 0px 10px 10px 0px;
+    background-color: #007A29;
+    border-width: 0;
+    vertical-align: top;
+}
+
+.filters{
+    height: 60px;
+    background-color: #FFFFFF;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    position: relative;
+    z-index: +1;
+}
+.filters-button{
+    margin: 10px;
+    float: right;
+    border-radius: 10px;
+    border-width: 0px;
+}
+.sort-button{
+    float: left;
+}
+.filters-img{
+    display: inline-block;
+    padding: 10px;
+    vertical-align: top;
+}
+.filters-text{
+    vertical-align: top;
+    padding: 12px 24px 12px 0px;
+    display: inline-block;
+
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    color: #4F4F4F;
+}
+
+.page-body{
+    background-color: #FFFFFF;
+    padding-top: 180px;
+    padding-bottom: 60px;
+}
+.grocery-box{
+    display: inline-block;
+    margin: 13px 0px 0px 10px;
+    width: 178px;
+    border-radius: 10px;
+    box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.15);
+}
+.grocery-img-box{
+    margin: 15px 20px 6px 20px;
+}
+.grocery-name-box{
+    margin-left: 20px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+}
+
+.grocery-button{
+    margin: 20px 20px 15px 20px;
+    border-width: 0;
+    background-color: #009933;
+    border-radius: 10px;
+}
+.grocery-button-text{
+    display: inline-block;
+    vertical-align: top;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    color: #FFFFFF;
+    padding: 10px 29px 10px 29px;
+}
+.grocery-button-counter-box{
+    margin: 20px 20px 10px 20px;
+}
+.grocery-button-counter{
+    display: inline-block;
+    border-width: 0;
+    background-color: #FFFFFF;
+    border-radius: 10px;
+    height: 40px;
+}
+.minus-button{
+    float: left;
+}
+.plus-button{
+    float: right;
+}
+.grocery-button-counter-text{
+    display: inline-block;
+    vertical-align: top;
+    padding-top: 10px;
+    text-align: center;
+    width: 58px;
+    padding-bottom: 15px;
+}
+
+
+.menu{
+    height: 55px;
+    background-color: #FFFFFF;
+    overflow:hidden;
+    white-space: nowrap;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+
+    position: relative;
+    z-index: +1;
+}
+.menu-button{
+    display: inline-block;
+    float: left;
+    width: 20%;
+    padding-top: 6px;
+    padding-bottom: 4px;
+
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    text-align: center;
+
+    color: #7D7D7D;
+}
+.menu-button-active{
+    background: rgba(0, 153, 51, 0.05);
+    color: #009933;
+}
+.menu-img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+}

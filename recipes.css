@@ -1,0 +1,196 @@
+::-webkit-input-placeholder {color:#FFFFFF; font-size: 18px;}
+::-moz-placeholder          {color:#FFFFFF; font-size: 18px;}/* Firefox 19+ */
+:-moz-placeholder           {color:#FFFFFF; font-size: 18px;}/* Firefox 18- */
+:-ms-input-placeholder      {color:#FFFFFF; font-size: 18px;}
+*{
+    font-family: Arial;
+    --input_text_color: #FFFFFF;
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+
+}
+body{
+    background-color: #111d38;
+}
+.main{
+    width: 100%;
+    margin: auto;
+}
+.main-background{
+    position: absolute;
+    z-index: -2;
+    background-color: #FFFFFF;
+    height: 100%;
+    width: 100%;
+}
+.page-name{
+    padding-left: 20px;
+    padding-top: 20px;
+    color: #FFFFFF;
+    font-size: 18px;
+}
+
+.unmoveble{
+    position: fixed;
+    width: 100%;
+}
+.unmoveble-menu{
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+}
+.header{
+    height: 60px;
+    background-color: #009933;
+
+}
+.search{
+    display: inline-block;
+    width: 100%;
+    position: relative;
+    z-index: +2;
+    height: 60px;
+    background-color: #009933;
+}
+.search-bar{
+    border-radius: 10px;
+    margin: 10px;
+    background-color: #007A29;
+
+}
+.search-img{
+    display: inline-block;
+    padding: 10px 10px 6px 10px;
+
+}
+.search-button{
+    background-color: #007A29;
+    border-width: 0;
+    border-radius: 10px 0px 0px 10px;
+}
+.search-input{
+    color: var(--input_text_color);
+    padding-top: 7px;
+    height: 40px;
+    width: 85%;
+    border-radius: 0px 10px 10px 0px;
+    background-color: #007A29;
+    border-width: 0;
+    vertical-align: top;
+}
+
+.filters{
+    height: 60px;
+    background-color: #FFFFFF;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    position: relative;
+    z-index: +1;
+}
+.filters-button{
+    margin: 10px;
+    float: right;
+    border-radius: 10px;
+    border-width: 0px;
+}
+.sort-button{
+    float: left;
+}
+.filters-img{
+    display: inline-block;
+    padding: 10px;
+    vertical-align: top;
+}
+.filters-text{
+    vertical-align: top;
+    padding: 12px 24px 12px 0px;
+    display: inline-block;
+
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    color: #4F4F4F;
+}
+
+.page-body{
+    background-color: #FFFFFF;
+    padding-top: 180px;
+    padding-bottom: 60px;
+}
+.recepie-box{
+    height: 115px;
+    margin: 15px 10px 15px 15px;
+}
+.recepie-img{
+    display: inline-block;
+}
+.recepie-info{
+    display: inline-block;
+    vertical-align: top;
+    width: 63%;
+    font-size: 14px;
+    margin-left: 10px;
+}
+.recepie-name-and-time{
+    vertical-align: top;
+}
+.recepie-name{
+    font-size: 16px;
+}
+.recepie-time{
+    color: #009933;
+}
+.recepie-info-main{
+    line-height: 16px;
+}
+.recepie-ingedients{
+    padding-top: 8px;
+    line-height: 20px;
+    width: 80%;
+    display: inline-block;
+    color: #4F4F4F;
+}
+.recepie-button{
+    display: inline-block;
+    border-width: 0;
+    background-color: #FFFFFF;
+    border-radius: 10px;
+    height: 40px;
+}
+.menu{
+    height: 55px;
+    background-color: #FFFFFF;
+    overflow:hidden;
+    white-space: nowrap;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+
+    position: relative;
+    z-index: +1;
+}
+.menu-button{
+    display: inline-block;
+    float: left;
+    width: 20%;
+    padding-top: 6px;
+    padding-bottom: 4px;
+
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    text-align: center;
+
+    color: #7D7D7D;
+}
+.menu-button-active{
+    background: rgba(0, 153, 51, 0.05);
+    color: #009933;
+}
+.menu-img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
