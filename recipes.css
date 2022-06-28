@@ -34,6 +34,7 @@ body{
 .unmoveble{
     position: fixed;
     width: 100%;
+    z-index: +1;
 }
 .unmoveble-menu{
     position: fixed;
@@ -128,7 +129,7 @@ body{
 .recepie-info{
     display: inline-block;
     vertical-align: top;
-    width: 63%;
+    width: 60%;
 
     max-width: 300px;
     font-size: 14px;
@@ -142,6 +143,7 @@ body{
 }
 .recepie-time{
     color: #009933;
+    float: right;
 }
 .recepie-info-main{
     line-height: 16px;
@@ -149,7 +151,7 @@ body{
 .recepie-ingedients{
     padding-top: 8px;
     line-height: 20px;
-    width: 70%;
+    width: 75%;
     max-width: 300px;
     display: inline-block;
     color: #4F4F4F;
