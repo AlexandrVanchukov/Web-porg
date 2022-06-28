@@ -128,7 +128,9 @@ body{
 .recepie-info{
     display: inline-block;
     vertical-align: top;
-    width: 233px;
+    width: 63%;
+
+    max-width: 300px;
     font-size: 14px;
     margin-left: 5px;
 }
@@ -147,12 +149,15 @@ body{
 .recepie-ingedients{
     padding-top: 8px;
     line-height: 20px;
-    width: 185px;
+    width: 70%;
+    max-width: 300px;
     display: inline-block;
     color: #4F4F4F;
 }
 .recepie-button{
     display: inline-block;
+    margin-top: 3px;
+    float: right;
     border-width: 0;
     background-color: #FFFFFF;
     border-radius: 10px;
@@ -169,6 +174,7 @@ body{
     z-index: +1;
 }
 .menu-button{
+    text-decoration: none;
     display: inline-block;
     float: left;
     border-width: 0px;
