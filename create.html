@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8">
+    <title>resipes</title>
+    <link rel="stylesheet" href="create.css" type="text/css">
+</head>
+<body>
+<div class="main">
+    <div class="unmoveble">
+        <div class="header">
+            <p class="main-text page-name">Создание</p>
+        </div>
+    </div>
+    <div class="main-background"></div>
+
+    <div class="page-body">
+        <div class="create-box">
+            <label><input type="text" class="create-input" placeholder="Название рецепта"></label>
+        </div>
+        <div class="create-box">
+            <label><textarea rows="10" cols="45" name="text" class="create-input description-input" placeholder="Описание рецепта"></textarea></label>
+        </div>
+        <div class="create-box">
+            <label><input type="text" class="create-input ingredient-name" placeholder="Картошка"></label>
+            <label><input type="number" class="create-input ingredient-count" placeholder="1"></label>
+            <select class="create-input ingredient-select">
+                <option>г.</option>
+                <option selected>кг.</option>
+                <option>мл.</option>
+                <option>л.</option>
+            </select>
+        </div>
+        <div class="create-box">
+            <button class="create-addIngredients-button">Добавить ингредиент</button>
+        </div>
+        <div class="create-box create-box-photo">
+            <button class="create-addImg"><img src="img/addPhoto.svg"> </button>
+        </div>
+        <div class="create-box">
+            <button class="create-addIngredients-button save-button">Сохранить</button>
+        </div>
+    </div>
+    <div class="unmoveble-menu">
+        <div class="menu">
+            <a href="recipes.html" class="menu-button">
+                <img class="menu-img" src="img/menu/recepie-non%201.png">
+                <p>Рецепты</p>
+            </a>
+            <a href="groceries.html" class="menu-button">
+                <img class="menu-img" src="img/menu/products-non.svg">
+                <p>Продукты</p>
+            </a>
+            <a href="list.html" class="menu-button">
+                <img class="menu-img" src="img/menu/list-non.svg">
+                <p>Список</p>
+            </a>
+            <a href="create.html" class="menu-button menu-button-active">
+                <img class="menu-img" src="img/menu/create-active.svg">
+                <p>Создание</p>
+            </a>
+            <a href="profile.html" class="menu-button">
+                <img class="menu-img" src="img/menu/profile-non.svg">
+                <p>Профиль</p>
+            </a>
+        </div>
+    </div>
+
+</div>
+
+</body>
+</html>
