@@ -92,13 +92,14 @@ body{
 }
 .filters-button{
     text-decoration: none;
-    margin: 10px;
+    margin: 10px 10px 10px 5px;
     float: right;
     border-radius: 10px;
     border-width: 0px;
     background-color: #F3F4F6;
 }
 .sort-button{
+    margin: 10px 5px 10px 10px;
     float: left;
 }
 .filters-img{
@@ -181,6 +182,42 @@ body{
     color: #4F4F4F;
 }
 .recepie-button{
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    margin-top: 3px;
+    float: right;
+    border-width: 0;
+    background-color: #FFFFFF;
+    border-radius: 10px;
+    height: 40px;
+}
+
+.recepie-button-label{
+    width: 40px;
+    height: 40px;
+}
+
+input[type="checkbox"]:checked,
+input[type="checkbox"]:not(:checked){
+    display: none;
+}
+input[type="checkbox"] + span{
+    position: absolute;
+    right: 0; bottom: 0;
+    width: 42px; height: 40px;
+    background: url("img/addButton.png") no-repeat;
+    background-position-y: center;
+    background-position-x: 95%;
+    cursor: pointer;
+}
+input[type="checkbox"]:checked + span{
+    background: url("img/doneButton.svg") no-repeat;
+    background-position-y: center;
+    background-position-x: 95%;
+}
+
+.recepie-button-checkbox{
     position: absolute;
     bottom: 0px;
     right: 0px;
